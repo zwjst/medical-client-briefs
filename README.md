@@ -2,7 +2,7 @@
 
 **Open-source ChatGPT skill for turning overseas medical-device sales chats into clear, concise Chinese CRM progress summaries.**
 
-[中文说明](#中文说明) · [Skill](skills/client-progress-summary/SKILL.md) · [Examples](examples/README.md) · [MIT License](LICENSE)
+[中文说明](#中文说明) · [Skill](skills/client-progress-summary/SKILL.md) · [Install / 安装](docs/INSTALL.md) · [Publishing status / 发布状态](docs/PUBLISHING.md) · [Examples](examples/README.md) · [Support](SUPPORT.md) · [MIT License](LICENSE)
 
 ## Features
 
@@ -72,6 +72,12 @@ The repository contains **fictionalized or anonymized examples only**. Do not co
 在支持 Skills 的 ChatGPT 客户端中导入 [SKILL.md](skills/client-progress-summary/SKILL.md)，或将其内容放入自定义 GPT 指令。粘贴对话并要求“按统一模板总结”。请在保存至 CRM 前核对摘要与原对话一致。
 
 **注意：** GitHub 公开不意味着其他 ChatGPT 账号能够直接通过链接自动调用该 Skill。实际使用需要各自安装、导入或配置。
+
+## Distribution status / 分发状态
+
+- **GitHub source:** Public and usable via copied instructions or supported Skill import.
+- **Public ChatGPT directory:** Not yet submitted, reviewed, or published. See [publication checklist](docs/PUBLISHING.md).
+- **Feedback / 问题反馈:** [GitHub Issues](https://github.com/zwjst/medical-client-briefs/issues); please use anonymized data only.
 
 ## License
 
