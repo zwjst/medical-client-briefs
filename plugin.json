@@ -1,0 +1,22 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "medical-client-briefs",
+  "version": "0.1.0",
+  "description": "Convert overseas medical-equipment client conversations into precise, concise Chinese CRM progress summaries.",
+  "author": {
+    "name": "Community contributors"
+  },
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "医疗客户开发总结",
+        "shortDescription": "医疗客户沟通进度标准化总结",
+        "longDescription": "将 WhatsApp、邮件及医疗客户开发记录整理为精简、可复制的中文 CRM 单段落摘要，保留客户反馈、需求判断及真实跟进状态，隐藏医生姓名与具体执业机构名称。",
+        "developerName": "Community contributors",
+        "category": "Productivity",
+        "capabilities": [],
+        "defaultPrompt": "请按统一模板总结以下医疗客户沟通记录，输出简洁单段落。"
+      }
+    }
+  }
+}
