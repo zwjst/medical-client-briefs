@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "medical-client-briefs",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Convert overseas medical-equipment client conversations into precise, concise Chinese CRM progress summaries.",
   "author": {
     "name": "Community contributors"
@@ -15,7 +15,21 @@
         "developerName": "Community contributors",
         "category": "Productivity",
         "capabilities": [],
-        "defaultPrompt": "请按统一模板总结以下医疗客户沟通记录，输出简洁单段落。"
+        "defaultPrompt": "请按统一模板总结以下医疗客户沟通记录，输出简洁单段落。",
+        "websiteURL": "https://github.com/zwjst/medical-client-briefs",
+        "supportURL": "https://github.com/zwjst/medical-client-briefs/blob/main/SUPPORT.md"
+      },
+      "review": {
+        "prompts": [
+          "请将以下海外医生 WhatsApp 对话整理成单段落 CRM 开发总结。",
+          "对方表示自己手术中不用 C 臂，但未说明医院设备配置。请按统一模板总结，不要推断医院没有相关设备。",
+          "我已经向医院工作人员询问生物医学工程部门联系方式，尚未回复。请记录实际进度。",
+          "我尚未向对方询问采购计划，请在摘要中正确体现下一步。",
+          "请总结以下哥伦比亚医生开发记录，正文不要出现医生和医院名称。"
+        ]
+      },
+      "publication": {
+        "release_notes": "0.1.1 — Added public installation and support instructions, anonymized examples and public submission preparation."
       }
     }
   }
